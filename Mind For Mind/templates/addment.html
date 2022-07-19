@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add Mentor</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+</head>
+<body>
+<h1 class="jumbotron">Add Mentor</h1>
+
+<b>{{message}}</b> <br>
+<form action="/addment" method="post" style="text-align:center">
+    
+    <input type="text" name="firstname" placeholder="Enter First Name" required>
+    <br><br>
+
+    <input type="text" name="lastname" placeholder="Enter Last Name" required>
+    <br><br>
+
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <br><br>
+
+    <input type="text" name="password" placeholder="Enter password" required>
+    <br><br>
+    <input type="submit" value="Add Mentor" class = "btn btn-primary">
+</form>
+
+</body>
+</html>

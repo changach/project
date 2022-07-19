@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add student</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+</head>
+<body>
+<h1 class="jumbotron">Add Student</h1>
+
+<b>{{message}}</b> <br>
+<form action="/addstud" method="post" style="text-align:center">
+    
+    <input type="text" name="firstname" placeholder="Enter First Name" required>
+    <br><br>
+
+    <input type="text" name="lastname" placeholder="Enter Last Name" required>
+    <br><br>
+
+    <input type="text" name="username" placeholder="Enter username" required>
+    <br><br>
+
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <br><br>
+
+    <input type="text" name="password" placeholder="Enter password" required>
+    <br><br>
+
+    <input type="text" name="cwd" placeholder="Confirm password" required>
+    <br><br>
+
+    <input type="tel" name="phone" placeholder="Enter phone number" required>
+    <br><br>
+    
+    <input type="date" name="dob" placeholder="Enter Date of birth" required>
+    <br><br>
+
+    <input type="submit" value="Add student" class = "btn btn-primary">
+</form>
+
+</body>
+</html>

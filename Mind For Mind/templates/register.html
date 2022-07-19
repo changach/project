@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+        <section class="col-md-12">
+            <div>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-light fixed-top">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/register">Register</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+                              <!--end of navbar-->
+
+                              <!-- start of form-->
+        <br><br>
+        <section class="row" style="margin-left:5%; margin-right:5%;">
+            <legend class="jumbotron" align="center">Registration Form</legend>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6">
+                    <form action="/register">
+                        <label>First Name: </label><input type="name" name="firstname" placeholder="Enter your first name" class="form-control"><br>
+                        <label>Last Name: </label><input type="name" name="lastname" placeholder="Enter your last name" class="form-control"><br>
+                        <label>Username: </label><input type="name" name="username" placeholder="Enter a username" class="form-control"><br>
+                        <label>email: </label><input type="email" name="email" placceholder="Enter your email address" class="form-control"><br>
+                        <label>Password: </label><input type="password" name="password" placeholder="Enter a password" class="form-control"><br>
+                        <label>Confirm password: </label><input type="password" name="cwd" placeholder="Confirm password" class="form-control"><br>
+                        <label>Phone: </label><input type="tel" name="phone" placeholder="Enter Phone number" class="form-control"><br>
+                        <label>Date of Birth: </label><input type="date" name="dob" placeholder="Enter your date of birth" class="form-control"><br>
+                        <label>gender: </label><br>
+                        <input type="radio" name="Gender"><label>Female</label><br>
+                        <input type="radio" name="Gender"><label>Male</label><br>
+                        <input type="radio" name="Gender"><label>Non-Binary gender</label><br>
+                        <input type="radio" name="Gender"><label>Rather Not say</label><br><br>
+                        <input type="submit" value="Register" class="btn btn-success">
+                    </form>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </section>
+                              <!-- end of form -->
+                                  <!-- FOOTER-->
+        <br><br>
+        <footer>
+            <div class="col bg-dark text-white" >
+                <h4 align="center">MindToMind &copy; 2021</h4>
+                <p align="center">Developed by:Sharon Chang'ach</p>
+            </div>
+        </footer>
+                              <!-- END OF FOOTER-->
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Doctors</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+</head>
+<body>
+<h1 class="jumbotron">Mentors</h1>
+{{Welcome}}
+
+<div class="bg-secondary text-white" style="margin-left: 2%; padding:2%;">
+
+    {% for row in rows %}
+    <b> Mentor FirstName:</b> {{row[0]}} <br>
+    <b> Mentor lastname: </b> {{row[1]}}<br>
+    <b> Mentor email:</b> {{row[2]}} <br>
+    <a href="" class="btn btn-info"> Mentor Report</a>
+    <br><br>
+    {% endfor %}
+
+</div>
+
+
+</body>
+</html>
